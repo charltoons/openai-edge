@@ -363,6 +363,7 @@ export interface CreateChatCompletionRequest {
    * @type {Array<ChatCompletionRequestMessage>}
    * @memberof CreateChatCompletionRequest
    */
+  messages: Array<ChatCompletionRequestMessage>
   /**
    * A list of functions the model may generate JSON inputs for.
    * @type {Array<ChatCompletionFunctions>}
